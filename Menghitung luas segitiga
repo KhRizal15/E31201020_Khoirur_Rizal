@@ -1,0 +1,19 @@
+ */
+
+/**
+ *
+ * @author CodeVector-PC
+ */
+public class MenghitungLuasSegitiga_BufferedReader {
+    public static void main(String[] args) throws IOException{
+        double alas, tinggi, luas;
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Masukkan nilai Alas :");
+        alas = Double.parseDouble(input.readLine());
+        System.out.println("Masukkan nilai Tinggi :");
+        tinggi = Double.parseDouble(input.readLine())
+        luas = (alas * tinggi) / 2;
+  
+        System.out.println("Luas Segitiga adalah : " + luas);   
+    }
+}
